@@ -1,3 +1,3 @@
-module your.import/path
+module go
 
 go 1.15

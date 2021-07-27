@@ -1,5 +1,8 @@
 package main
-import "go/stack"
+import (
+	"go/stack"
+	"go/queue"
+)
 
 func main() {
 
@@ -14,4 +17,17 @@ func main() {
 	stack.Peek()
 	
 	/* End Stack */
+
+	/* Start Queue */
+
+	queue.Enqueue(1)
+	queue.Enqueue(2)
+	queue.Enqueue(3)
+	queue.Enqueue(4)
+
+	queue.Dequeue()
+
+	queue.DisplayQueue()
+
+	/* End Queue */
 }
